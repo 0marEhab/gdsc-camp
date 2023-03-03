@@ -1,0 +1,424 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    
+}
+.section1{
+position: sticky;
+background-image: url(image/shutterstock_277750193.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+
+}
+
+
+.section2{
+    height: 100vh;
+background-color: white;
+background-size: cover;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+    z-index: 5;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 45px 30px 0px 0;
+    position: relative;
+    left: 30%;
+    text-decoration: none;
+    font-size: 19px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Alegreya', serif;
+}
+
+section .restaurant{
+display: block;
+align-items: center;
+text-align: center;
+position: relative;
+width: 700px;
+top: 100px;
+left: 25%;
+}
+section .word1{
+    font-size: 90px;
+    font-family: 'Alegreya', serif;
+}
+section  .word2{
+    font-size: 45px;
+    font-family: 'Dancing Script', 'cursive';
+}
+.box{
+    display: flex;
+    padding: 30px;
+    
+    justify-content: center;
+}
+
+section  .box1{
+    display: grid;
+    margin: 10px;
+    align-items: center;
+    width: 115px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #c1ab84;
+}
+section .box2{
+    
+    display: grid;
+    margin: 10px;
+    align-items: center;
+    width: 115px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+.section2{
+    display: flex;
+    height: 900px;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+.section2 p{
+    color: black;
+}
+.section2 .half1{
+    width: 50%;
+    
+}
+.section2 .half2{
+    padding-top: 163px;
+    
+    width: 50%;
+      
+}
+.section2 .half2 .first{
+    font-size: 40px;
+    font-family: 'Alegreya', serif;
+}
+.section2 .half2 .sec{
+   
+    font-size: 35px;
+    font-family: 'Dancing Script', 'cursive';
+}
+.section2 .half2 .third{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+.section2 .half2 .all p{
+    padding: 30px;
+    font-size: 20px;
+}
+.section3{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    
+}
+.section3 p{
+    color: black;
+}
+.section3 .all{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.section3 .half1{
+    margin: 100px;
+    width: 50%;
+
+}
+.section3 .half2{
+    width: 50%;
+}
+.section3 .half1 .first{
+    font-size: 40px;
+    font-family: 'Alegreya', serif;
+}
+.section3 .half1 .sec{
+   padding-bottom: 30px;
+    font-size: 35px;
+    font-family: 'Dancing Script', 'cursive';
+}
+.section3 .half1 .third{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+.section3 .half1 .forth{
+    display: flex;
+    padding: 19px;
+    justify-content: space-evenly;
+}
+.section4{
+    background-image: url(image/shutterstock_280369721.jpeg);
+    background-size: cover;
+    height: 500px;
+}
+.section6 p{
+    display: flex;
+    justify-content: center;
+    color: black;
+    
+}
+.section6 .first{
+    font-size: 30px;
+    font-family: 'Alegreya', serif;
+    padding-top: 21px;
+}
+.section6 .sec{
+    font-size: 30px;
+    font-family: 'Dancing Script', 'cursive';
+    color: #c1ab84;
+}
+.section6 .frame{
+    display: flex;
+    height: 350px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    padding: 71px;
+    right: 180px;
+}
+.section6 .frame .food{
+    position: relative;
+    left: 59px;
+}
+
+.section6 .frame .word1{
+    font-size: 23px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    font-family: 'Alegreya', serif;
+    position: relative;
+    left: 55px;
+}
+.section6 .frame .word2{
+    font-size: 19px;
+    color: #686868;
+    position: relative;
+    left: 74px;
+    width: 276px;
+    height: 29px;
+    font-family: 'Alegreya', serif;
+}
+.section6 .colo{
+    display: flex;
+    position: relative;
+    left: 211px;
+    width: 84%;
+}
+.section6 .button{
+    display: grid;
+    margin: 10px;
+    align-items: center;
+    width: 115px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #c1ab84;
+    text-decoration: none;
+    justify-content: center;
+    position: relative;
+    left: 700px;
+}
+.section7 {
+    background-image: url(image/shutterstock_277750193.jpeg);
+    background-size: cover;
+    height: 400px;
+    
+}
+.section7 .all{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    top: 51px;
+
+}
+.section7 .first p {
+    font-size: 30px;
+    padding: 30px;
+}
+
+
+
+.section7 .sec p{
+    font-size: 22px;
+    padding: 30px;
+}
+
+.section7 .third p{
+    font-size: 20px;
+    padding: 30px;
+}
+
+
+.section8{
+    display: flex;
+}
+
+.section8 p{
+    color: black;
+}
+.section8 .half1{
+    margin: 100px;
+    width: 50%;
+
+}
+.section8 .half2{
+    width: 50%;
+    padding-top: 150px;
+}
+.section8 .half1 .first{
+    font-size: 40px;
+    font-family: 'Alegreya', serif;
+}
+.section8 .half1 .sec{
+    padding-top: 20px;
+   padding-bottom: 30px;
+    font-size: 20px;
+    
+}
+.section8 .half1 .third{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+.section8 .half1 .forth{
+    display: flex;
+    position: relative;
+    left: 176px;
+    padding: 30px;
+    justify-content: flex-start;
+}
+
+
+.section9{
+    background-color: #403d38;
+    color: black;
+}
+.section9 .all1{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    
+}
+.section9 .word1{
+    font-size: 30px;
+    
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.section9 .word2{
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 25px;
+}
+.section9 .word3{
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 25px;
+}
+.section9 .frame{
+    display: flex;
+}
+.section9 .all2{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    padding: 30px;
+}
+.section9 .all3{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    padding: 30px;
+}
+.section9  .pr {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+.section9  .links {
+    padding: 20px;
+}
+.section9  .links a {
+
+    text-decoration: none;
+}
+.section9  .pr2 {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.section9  .words {
+    padding: 20px;
+}
+.section9 .all4{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    padding: 30px;
+}
+.section10{
+    background-color: #353330;
+    background-size: cover;
+    height: 400px;
+}
+.section10 .all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.section10 .pr{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+nav ul li a:hover{
+    color: #c1ab84;
+    transition: 1s;
+}
+section  .box1:hover{
+    color: black;
+    background-color: gray;
+    transition: 1s;
+    
+}
+section  .box2:hover{
+    color: black;
+    background-color: grey;
+    transition: 1s;
+    
+}
+.section6 .button:hover{
+    color: black;
+    background-color: grey;
+    transition: 1s;
+}
